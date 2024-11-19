@@ -1,15 +1,17 @@
-import React from 'react';
-import NavBar from './components/NavBar';
-import NavBar from './components navbar/navbar';
-import NavBar from './assets';
-function App() {
-  return (
-    <div>
-      <NavBar />
-      {}
-    </div>
-  );
+import "./App.css"
+
+import Header from "./components navbar/header";
+import Principal from "./components navbar/Principal";
+import Footer from "./components navbar/Nabar";
+function App ()
+{
+  return(
+  <>
+  <h1> Bienvenidos </h1>
+       < Header />
+       < Principal /> 
+        < Footer />
+        </>
+      )
 }
-
-export default App;
-
+export default App
